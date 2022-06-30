@@ -17,3 +17,17 @@ git commit -m "Add test.txt"
 ```
 git push origin master
 ```
+## リモートの更新を取得してローカルブランチに反映する
+1.リモートリポジトリにあるコミットをローカルリポジトリに取得する<br>
+```
+git fetch origin master
+```
+2.リモート追跡ブランチ(origin/master)をローカルブランチ(master)に早送りマージする<br>
+まず、masterをチェックアウトする。<br>
+```
+git checkout master
+```
+リモート追跡ブランチを早送りマージする。<br>
+```
+git merge--ff-only origin/master
+```
