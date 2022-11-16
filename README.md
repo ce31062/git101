@@ -1,6 +1,5 @@
 # GitHubの実用的な基本操作を学ぶ
-![image](https://user-images.githubusercontent.com/74296872/202143437-d85cd179-5c78-4a55-a4d8-88bb312998b0.png)
-
+<img src="https://user-images.githubusercontent.com/74296872/202143437-d85cd179-5c78-4a55-a4d8-88bb312998b0.png" width="800">
 ## 作業ツリーの内容をリモートリポジトリに送る
 1.作業ツリーの内容をリポジトリまでの中間領域にコピーする（ステージする)<br>
 既にプロジェクトのファイルやディレクトリが作業ツリーにあるなら、作業ツリーのトップで以下のコマンドを実行。<br>
